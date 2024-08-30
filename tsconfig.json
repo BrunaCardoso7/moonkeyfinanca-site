@@ -21,18 +21,15 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "app/*": ["src/app/*"],
-      "components/*": ["src/a/*"],
-      "hooks/*": ["src/hooks/*"]
-    }
-    
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+  // "compilerOptions": {
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   }
+  // }
 }
